@@ -67,8 +67,9 @@
                       </div>
                     </form>
                   @else
-                    <div class="text-dark text-center mt-2 mb-3"><strong>We are not currenctly accepting new users</strong></div>
-                  @endif
+                    <div class="text-dark text-center mt-2 mb-3"><strong>We are not currently accepting new
+                            users</strong></div>
+                    @endif
                 </div>
                 <!-- /.promo-mockup -->
             </div>
