@@ -10,15 +10,17 @@
                 <div class="col-lg-6 z100">
                     <div class="backg-content">
                         <h1 class="backg-title wow soneFadeUp" data-wow-delay="0.5s">
-                        {{$ui->header_title}}
+                            {{$ui->header_title}}
                         </h1>
                         <p class="description wow soneFadeUp" data-wow-delay="0.6s">
-                        {{$ui->header_body}}
+                            {{$ui->header_body}}
                         </p>
 
                         <div class="">
-                            <a href="{{route('register')}}" class="pxn backg-btn wow soneFadeUp" data-wow-delay="0.6s">Get Started</a>
-                            <a href="{{route('about')}}" class="sone-btn btn-outline wow soneFadeUp" data-wow-delay="0.6s">Login</a>
+                            <a href="{{route('register')}}" class="pxn backg-btn wow soneFadeUp" data-wow-delay="0.6s">Get
+                                Started</a>
+                            <a href="{{route('login')}}" class="sone-btn btn-outline wow soneFadeUp"
+                               data-wow-delay="0.6s">Login</a>
                         </div>
                     </div>
                     <!-- /.backg-content -->
